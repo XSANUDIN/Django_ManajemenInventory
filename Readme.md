@@ -11,7 +11,7 @@ Aplikasi ini dibangun menggunakan Web Framework Django dan menggunakan PostgreSQ
 
 
 ## Alur Pengerjaan
-- **Instalasi [Docker](https://docs.docker.com/) dan [Python](https://www.python.org/doc/)**
+1. **Instalasi [Docker](https://docs.docker.com/) dan [Python](https://www.python.org/doc/)**
 - **Instal [Django](https://docs.djangoproject.com/en/5.2/)**
 
   ```bash
