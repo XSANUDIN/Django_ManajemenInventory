@@ -12,23 +12,23 @@ Aplikasi ini dibangun menggunakan Web Framework Django dan menggunakan PostgreSQ
 
 ## Alur Pengerjaan
 1. **Instalasi [Docker](https://docs.docker.com/) dan [Python](https://www.python.org/doc/)**
-- **Instal [Django](https://docs.djangoproject.com/en/5.2/)**
+2. **Instal [Django](https://docs.djangoproject.com/en/5.2/)**
 
   ```bash
    pip install django
   ```
 
-- **Membuat Project baru**
+3. **Membuat Project baru**
   ```bash
   django-admin startproject "uts_pss" 
   ```
 
-- **Membuat App**
+4. **Membuat App**
   ```bash
   django-admin manage.py startapp "manajemen_inventory"
   ```
 
-- **Konfigurasi App**
+5. **Konfigurasi App**
   ```bash
   membuat requirements
   ```
@@ -55,9 +55,9 @@ Aplikasi ini dibangun menggunakan Web Framework Django dan menggunakan PostgreSQ
   }
   ```
   
-- **Membuat Models** sesuai dengan tabel database yang telah diberikan.
-- **Membuat Serializers** untuk merubah data menjadi format JSON.
-- **Membuat urls** untuk menghubungkan alamat web (endpoint) ke fungsi view.
+6. **Membuat Models** sesuai dengan tabel database yang telah diberikan.
+7. **Membuat Serializers** untuk merubah data menjadi format JSON.
+8. **Membuat urls** untuk menghubungkan alamat web (endpoint) ke fungsi view.
   ``` bash
   from django.urls import path
   from .views import (
@@ -90,8 +90,8 @@ Aplikasi ini dibangun menggunakan Web Framework Django dan menggunakan PostgreSQ
     path('api/', include('manajemen_inventory.urls')),
   ]
   ```
-- **Membuat views** untuk mengatur logika aplikasi untuk memproses permintaan (request) dan menghasilkan respons.
-- **Membuat script django.sh** untuk mempermudah hal seperti migrasi dan seeding
+9. **Membuat views** untuk mengatur logika aplikasi untuk memproses permintaan (request) dan menghasilkan respons.
+10. **Membuat script django.sh** untuk mempermudah hal seperti migrasi dan seeding
   ``` bash
   #!/bin/bash
   echo "Create_Migrations"
@@ -121,12 +121,12 @@ Aplikasi ini dibangun menggunakan Web Framework Django dan menggunakan PostgreSQ
   echo "Start Server"
   python manage.py runserver 0.0.0.0:8080
   ```
-- **Membuat Dockerfile dan docker-compose.yml**
-- **Run Project**
+11. **Membuat Dockerfile dan docker-compose.yml**
+12. **Run Project**
   ```bash
     docker-compose up --build
   ```
-- **Test Aplikasi menggunakan Postman atau Django REST Framework**
+13. **Test Aplikasi menggunakan Postman atau Django REST Framework**
   ![Postman](https://drive.google.com/uc?export=view&id=10tW-SetYxYzFeJER4s-peXXzMOCD6hGh)
   ![DRF](https://drive.google.com/uc?export=view&id=1tddUB0-TmX6Tp7U0GLilhZ7flM6DwJHT)
 
