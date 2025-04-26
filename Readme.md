@@ -32,7 +32,7 @@ Aplikasi ini dibangun menggunakan Web Framework Django dan menggunakan PostgreSQ
     ```bash
     membuat requirements
     ```
-  Edit settings.py
+      Edit settings.py
     ```bash
     import os
     ....
