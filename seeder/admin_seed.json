@@ -1,0 +1,14 @@
+[
+    {
+      "model": "manajemen_inventory.admin",
+      "pk": 1,
+      "fields": {
+        "username": "Ini Gwa",
+        "password": "admin123",
+        "email": "admin1@admin.com",
+        "created_at": "2025-04-26T00:00:00Z",
+        "updated_at": "2025-04-26T00:00:00Z"
+      }
+    }
+  ]
+  
