@@ -1,6 +1,7 @@
 
 # Project UTS Pemrograman Sisi Server
 Membuat **BACKEND SISTEM MANAJEMEN INVENTORY**.
+A11.2022.14795 - NUR IKHSANUDIN
 
 ## Deskripsi
 Membuat aplikasi backend untuk mengelola persediaan pada toko. Aplikasi ini harus mendukung pengelolaan barang dan kategori, serta pencatatan data pemasok.
@@ -125,9 +126,8 @@ Aplikasi ini dibangun menggunakan Web Framework Django dan menggunakan PostgreSQ
     docker-compose up --build
   ```
 - **Test Aplikasi menggunakan Postman atau Django REST Framework**
-  ![DRF](https://drive.google.com/file/d/1tddUB0-TmX6Tp7U0GLilhZ7flM6DwJHT/view?usp=sharing)
-  ![Postman](https://drive.google.com/file/d/10tW-SetYxYzFeJER4s-peXXzMOCD6hGh/view?usp=sharing)
-
+  ![Postman](https://drive.google.com/uc?export=view&id=10tW-SetYxYzFeJER4s-peXXzMOCD6hGh)
+  ![DRF](https://drive.google.com/uc?export=view&id=1tddUB0-TmX6Tp7U0GLilhZ7flM6DwJHT)
 
 
 
