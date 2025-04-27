@@ -18,9 +18,9 @@
       "model": "manajemen_inventory.item",
       "pk": 2,
       "fields": {
-        "name": "Kemeja Lengan Panjang",
-        "description": "Kemeja formal warna putih",
-        "price": 150000,
+        "name": "RAM Kingston",
+        "description": "RAM 32 GB",
+        "price": 1600000,
         "quantity": 100,
         "category": 2,
         "supplier": 2,
